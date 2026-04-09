@@ -11,7 +11,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Error: Division by zero is not allowed"
+        return "Error: Division by zero"
     return a / b
 
 
@@ -19,14 +19,14 @@ def main():
     print("=== Simple Calculator ===")
     
     try:
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+        num1 = float(input("Enter first number 1: "))
+        num2 = float(input("Enter second number 2: "))
         
         print("\nSelect operation:")
-        print("1. Add")
-        print("2. Subtract")
-        print("3. Multiply")
-        print("4. Divide")
+        print("1. Add +")
+        print("2. Subtract -")
+        print("3. Multiply *")
+        print("4. Divide /")
         
         choice = input("Enter choice (1/2/3/4): ")
         
